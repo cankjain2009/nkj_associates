@@ -14,7 +14,7 @@ export default function AboutSection() {
             About Our Firm
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Naresh Kumar Jain & Associates
+            NK Jain & Associates
           </h2>
           <p className="mt-3 text-slate-600 text-base sm:text-lg font-medium">
             Over 16 Years of Technical Excellence, Integrity & Financial Leadership

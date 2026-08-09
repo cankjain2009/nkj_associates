@@ -23,7 +23,7 @@ export const SERVICES = [
     badge: "US GAAP / CPA",
     iconName: "Globe",
     summary: "Cross-border accounting, US GAAP & US Tax compliance, international transfer pricing, and inbound/outbound setup.",
-    description: "Led by CA Naresh Kumar Jain, CPA (US), our Global Services division bridges Indian regulatory compliance with international financial reporting standards. We support Indian subsidiaries of US/Global MNCs and Indian businesses expanding globally.",
+    description: "Led by CA Naresh Kumar Jain, our Global Services division bridges Indian regulatory compliance with international financial reporting standards. We support Indian subsidiaries of US/Global MNCs and Indian businesses expanding globally.",
     highlights: [
       "US GAAP Accounting & US Corporate Tax Filing (CPA Services)",
       "Cross-Border Financial Reporting & US-India Reporting Reconciliation",

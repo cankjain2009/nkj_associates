@@ -97,13 +97,13 @@ export default function Footer() {
         {/* ICAI Disclaimer Note */}
         <div className="mt-12 pt-6 border-t border-slate-900 text-[11px] text-slate-400 leading-relaxed space-y-2">
           <p>
-            <strong className="text-slate-300">Statutory Disclaimer:</strong> This website is intended solely for informational purposes regarding the professional services of Naresh Kumar Jain & Associates, Chartered Accountants. As per the guidelines issued by the Institute of Chartered Accountants of India (ICAI), this site does not constitute solicitation or advertisement of services.
+            <strong className="text-slate-300">Statutory Disclaimer:</strong> This website is intended solely for informational purposes regarding the professional services of NK Jain & Associates, Chartered Accountants. As per the guidelines issued by the Institute of Chartered Accountants of India (ICAI), this site does not constitute solicitation or advertisement of services.
           </p>
         </div>
 
         {/* Bottom Copyright & Scroll Top */}
         <div className="mt-6 pt-6 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-          <p>© {new Date().getFullYear()} Naresh Kumar Jain & Associates. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} NK Jain & Associates. All rights reserved.</p>
 
           <button
             onClick={scrollToTop}

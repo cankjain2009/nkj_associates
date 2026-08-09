@@ -77,7 +77,7 @@ export default function Navbar() {
                 {FIRM_INFO.name}
               </span>
               <span className="text-xs font-semibold text-blue-700 tracking-wide">
-                Chartered Accountants • US CPA
+                Chartered Accountants
               </span>
             </div>
           </a>

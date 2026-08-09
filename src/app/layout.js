@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Naresh Kumar Jain & Associates | Chartered Accountants (PAN India)",
-  description: "Professionally managed Chartered Accountancy firm with over 16 years of practice founded by CA Naresh Kumar Jain, CPA (US). Offering Audit, Tax Strategy, US GAAP/IND AS Reporting, IPO Readiness & Advisory services PAN India.",
+  title: "NK Jain & Associates | Chartered Accountants (PAN India)",
+  description: "Professionally managed Chartered Accountancy firm with over 16 years of practice founded by CA Naresh Kumar Jain. Offering Audit, Tax Strategy, US GAAP/IND AS Reporting, IPO Readiness & Advisory services PAN India.",
   keywords: [
     "Chartered Accountant",
     "CA Firm India",
@@ -23,7 +23,7 @@ export const metadata = {
     "Tax Advisory",
     "Statutory Audit",
     "PAN India CA Practice",
-    "Naresh Kumar Jain & Associates"
+    "NK Jain & Associates"
   ]
 };
 

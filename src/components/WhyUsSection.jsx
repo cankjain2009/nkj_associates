@@ -12,7 +12,7 @@ export default function WhyUsSection() {
     },
     {
       title: "US CPA & ICAI Quad-Partner Expertise",
-      description: "Led by CA Naresh Kumar Jain, CPA (US), our 4 partners bring specialized domain mastery across US GAAP, IND AS, IFRS, Tax litigation, and IPO processes.",
+      description: "Led by CA Naresh Kumar Jain, our 4 partners bring specialized domain mastery across US GAAP, IND AS, IFRS, Tax litigation, and IPO processes.",
       icon: Award
     },
     {
@@ -44,7 +44,7 @@ export default function WhyUsSection() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 bg-blue-500/10 text-blue-400 font-semibold px-3.5 py-1 rounded-full text-xs uppercase tracking-wider mb-3 border border-blue-500/20">
-            Why Naresh Kumar Jain & Associates
+            Why NK Jain & Associates
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
             Why Enterprises Choose Us as Their Trusted Financial Partner

@@ -1,8 +1,8 @@
 export const FIRM_INFO = {
-  name: "Naresh Kumar Jain & Associates",
-  shortName: "NKJ & Associates",
+  name: "NK Jain & Associates",
+  shortName: "NK Jain & Associates",
   tagline: "Chartered Accountants | Business & Tax Advisors",
-  foundedBy: "CA Naresh Kumar Jain, CPA (US)",
+  foundedBy: "CA Naresh Kumar Jain",
   experienceYears: "16+",
   partnerCount: "4",
   reach: "PAN India",
@@ -21,11 +21,11 @@ export const FIRM_INFO = {
 
   about: {
     headline: "Dependable Financial & Business Partner at Every Stage of Growth",
-    intro: "Naresh Kumar Jain & Associates is a professionally managed Chartered Accountancy firm with over 16 years of experience in providing accounting, assurance, taxation, advisory, audit and business support services to clients across diverse industries.",
-    founder: "Founded by CA Naresh Kumar Jain, CPA (US), the firm brings together a team of four experienced partners with complementary expertise spanning accounting, financial management, taxation, audit, internal controls, IPO-related processes, mergers and business advisory.",
+    intro: "NK Jain & Associates is a professionally managed Chartered Accountancy firm with over 16 years of experience in providing accounting, assurance, taxation, advisory, audit and business support services to clients across diverse industries.",
+    founder: "Founded by CA Naresh Kumar Jain, the firm brings together a team of four experienced partners with complementary expertise spanning accounting, financial management, taxation, audit, internal controls, IPO-related processes, mergers and business advisory.",
     experience: "Our partners have worked closely with large multinational corporations, listed companies, private enterprises and businesses across diverse sectors, bringing practical industry experience and a strong understanding of complex financial and regulatory environments.",
     standards: "With expertise across US GAAP, IND AS, IFRS, direct and indirect taxation, statutory and internal audit, financial management, IPO processes and mergers, we focus on providing practical, technically sound and business-oriented solutions tailored to each client's requirements.",
-    philosophy: "At Naresh Kumar Jain & Associates, we believe in building long-term professional relationships founded on integrity, technical excellence, responsiveness and trust. Our objective is to be more than a compliance professional — we strive to be a dependable financial and business partner for our clients at every stage of their growth.",
+    philosophy: "At NK Jain & Associates, we believe in building long-term professional relationships founded on integrity, technical excellence, responsiveness and trust. Our objective is to be more than a compliance professional — we strive to be a dependable financial and business partner for our clients at every stage of their growth.",
     
     pillars: [
       {

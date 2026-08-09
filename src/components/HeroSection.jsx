@@ -1,6 +1,6 @@
 "use client";
 
-import { ShieldCheck, ArrowRight, Award, Building2, Globe, CheckCircle2, TrendingUp, Sparkles } from "lucide-react";
+import { ShieldCheck, ArrowRight, Building2, Globe, CheckCircle2 } from "lucide-react";
 import { FIRM_INFO } from "@/data/firmInfo";
 
 export default function HeroSection() {
@@ -17,11 +17,6 @@ export default function HeroSection() {
           {/* Left Main Copy (7 Cols) */}
           <div className="lg:col-span-7 space-y-6">
             
-            {/* Top Badge Chip */}
-            <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 px-3.5 py-1.5 rounded-full text-xs font-semibold text-blue-800 shadow-2xs">
-              <Award className="w-4 h-4 text-blue-600" />
-              <span>Founded by {FIRM_INFO.foundedBy} • 16+ Years Practice</span>
-            </div>
 
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
@@ -33,7 +28,7 @@ export default function HeroSection() {
 
             {/* Sub-headline / Core Intro */}
             <p className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl font-normal">
-              <strong className="text-slate-900 font-semibold">Naresh Kumar Jain & Associates</strong> is a professionally managed Chartered Accountancy firm bringing together 4 experienced partners. We deliver complete statutory compliance, audit, tax strategy, and global financial advisory under US GAAP, IND AS & IFRS.
+              <strong className="text-slate-900 font-semibold">NK Jain & Associates</strong> is a professionally managed Chartered Accountancy firm bringing together 4 experienced partners. We deliver complete statutory compliance, audit, tax strategy, and global financial advisory under US GAAP, IND AS & IFRS.
             </p>
 
             {/* Service Chips */}

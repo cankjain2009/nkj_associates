@@ -110,7 +110,7 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-bold text-emerald-950">Thank You! Your Inquiry Has Been Sent.</h4>
                   <p className="text-emerald-800 text-xs mt-1">
-                    Our senior partners at Naresh Kumar Jain & Associates will review your details and respond to your email within 24 business hours.
+                    Our senior partners at NK Jain & Associates will review your details and respond to your email within 24 business hours.
                   </p>
                 </div>
               </div>
