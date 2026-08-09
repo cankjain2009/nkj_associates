@@ -6,8 +6,8 @@ export const FIRM_INFO = {
   experienceYears: "16+",
   partnerCount: "4",
   reach: "PAN India",
-  phone: "+91 7042631642",
-  phoneNumbers: ["+91 7042631642", "+91 9650550039", "+91 9034652044"],
+  phone: "+91 9650550039",
+  phoneNumbers: ["+91 9650550039", "+91 9034652044", "+91 7042631642"],
   email: "cankjain2009@gmail.com",
   address: "Mayur Vihar Phase 1 Extention, Delhi, 110091",
   web3formsKey: process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "YOUR_ACCESS_KEY_HERE",
@@ -51,19 +51,19 @@ export const FIRM_INFO = {
     {
       city: "Delhi Office",
       address: "Mayur Vihar Phase 1 Extention, Delhi, 110091",
-      phone: "+91 7042631642",
+      phone: "+91 9650550039",
       email: "cankjain2009@gmail.com"
     },
     {
       city: "Hisar Office (Haryana)",
       address: "Devki City Centre, Near Gandhi Chowk, Hisar, Haryana 125001",
-      phone: "+91 9650550039",
+      phone: "+91 9034652044",
       email: "cankjain2009@gmail.com"
     },
     {
       city: "Nagpur Office (Maharashtra)",
       address: "Suraj Town, Vathoda, Nagpur, Maharashtra 440035",
-      phone: "+91 9034652044",
+      phone: "+91 9650550039",
       email: "cankjain2009@gmail.com"
     },
     {

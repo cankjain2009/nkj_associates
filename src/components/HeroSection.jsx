@@ -1,39 +1,39 @@
 "use client";
 
-import { ShieldCheck, ArrowRight, Award, Building2, Globe, FileCheck2, CheckCircle } from "lucide-react";
+import { ShieldCheck, ArrowRight, Award, Building2, Globe, CheckCircle2, TrendingUp, Sparkles } from "lucide-react";
 import { FIRM_INFO } from "@/data/firmInfo";
 
 export default function HeroSection() {
   return (
-    <section className="relative bg-slate-950 text-white overflow-hidden py-16 md:py-24 border-b border-slate-800">
-      {/* Background Subtle Grid & Sapphire Glow */}
-      <div className="absolute inset-0 bg-grid-pattern-dark opacity-30 pointer-events-none" />
-      <div className="absolute top-0 right-1/4 w-[500px] h-[500px] bg-blue-600/15 rounded-full filter blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 left-10 w-96 h-96 bg-sky-500/10 rounded-full filter blur-3xl pointer-events-none" />
+    <section className="relative bg-gradient-to-b from-slate-50 via-blue-50/20 to-white text-slate-900 overflow-hidden py-16 md:py-24 border-b border-slate-200/80">
+      {/* Subtle Background Pattern & Light Radial Glow */}
+      <div className="absolute inset-0 bg-grid-pattern opacity-60 pointer-events-none" />
+      <div className="absolute top-0 right-1/4 w-[500px] h-[500px] bg-blue-400/10 rounded-full filter blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 left-10 w-96 h-96 bg-indigo-400/10 rounded-full filter blur-3xl pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
-          {/* Main Copy (7 Cols) */}
+          {/* Left Main Copy (7 Cols) */}
           <div className="lg:col-span-7 space-y-6">
             
-            {/* Top Pill Badge */}
-            <div className="inline-flex items-center gap-2 bg-blue-950/80 border border-blue-500/30 px-3.5 py-1.5 rounded-full text-xs font-semibold text-blue-300 backdrop-blur-md shadow-xs">
-              <Award className="w-4 h-4 text-blue-400" />
+            {/* Top Badge Chip */}
+            <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 px-3.5 py-1.5 rounded-full text-xs font-semibold text-blue-800 shadow-2xs">
+              <Award className="w-4 h-4 text-blue-600" />
               <span>Founded by {FIRM_INFO.foundedBy} • 16+ Years Practice</span>
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
               Trusted Financial, Audit & Tax Advisory on a{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-300 to-blue-200">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-700">
                 PAN India Basis
               </span>
             </h1>
 
             {/* Sub-headline / Core Intro */}
-            <p className="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl font-normal">
-              <strong className="text-white font-semibold">Naresh Kumar Jain & Associates</strong> is a professionally managed Chartered Accountancy firm bringing together 4 experienced partners. We deliver complete statutory compliance, audit, tax strategy, and global financial advisory under US GAAP, IND AS & IFRS.
+            <p className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl font-normal">
+              <strong className="text-slate-900 font-semibold">Naresh Kumar Jain & Associates</strong> is a professionally managed Chartered Accountancy firm bringing together 4 experienced partners. We deliver complete statutory compliance, audit, tax strategy, and global financial advisory under US GAAP, IND AS & IFRS.
             </p>
 
             {/* Service Chips */}
@@ -47,9 +47,9 @@ export default function HeroSection() {
               ].map((chip) => (
                 <span
                   key={chip}
-                  className="bg-slate-900/90 text-slate-300 text-xs px-3 py-1 rounded-lg border border-slate-800 flex items-center gap-1.5 font-medium"
+                  className="bg-white text-slate-700 text-xs px-3 py-1.5 rounded-xl border border-slate-200 shadow-2xs flex items-center gap-1.5 font-medium"
                 >
-                  <CheckCircle className="w-3.5 h-3.5 text-blue-400" />
+                  <CheckCircle2 className="w-3.5 h-3.5 text-blue-600" />
                   {chip}
                 </span>
               ))}
@@ -59,7 +59,7 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
               <a
                 href="#services"
-                className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3.5 rounded-xl shadow-xl shadow-blue-600/20 hover:shadow-blue-600/30 transition-all text-sm tracking-wide border border-blue-500/30"
+                className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3.5 rounded-xl shadow-lg shadow-blue-600/20 hover:shadow-blue-600/30 transition-all text-sm tracking-wide border border-blue-500/30"
               >
                 <span>Explore Our 9 Core Services</span>
                 <ArrowRight className="w-4 h-4" />
@@ -67,7 +67,7 @@ export default function HeroSection() {
 
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-850 text-slate-200 font-semibold px-6 py-3.5 rounded-xl border border-slate-700 hover:border-slate-600 transition-all text-sm"
+                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-slate-800 font-semibold px-6 py-3.5 rounded-xl border border-slate-300 hover:border-slate-400 transition-all text-sm shadow-2xs"
               >
                 <span>Request Advisory Call</span>
               </a>
@@ -76,29 +76,30 @@ export default function HeroSection() {
 
           {/* Right Visual Stats Card Grid (5 Cols) */}
           <div className="lg:col-span-5">
-            <div className="bg-slate-900/90 backdrop-blur-md rounded-2xl p-6 border border-slate-800 shadow-2xl relative">
+            <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-xl relative">
+              
               <div className="absolute -top-3 -right-3 bg-blue-600 text-white font-bold text-[10px] uppercase tracking-wider px-3 py-1 rounded-full shadow-md border border-blue-400/30">
                 Institutional Quality
               </div>
 
-              <h3 className="text-slate-200 font-bold text-base border-b border-slate-800 pb-3 mb-6 flex items-center justify-between">
+              <h3 className="text-slate-900 font-bold text-base border-b border-slate-100 pb-3 mb-6 flex items-center justify-between">
                 <span>Firm Metrics & Standards</span>
-                <Globe className="w-4 h-4 text-blue-400" />
+                <Globe className="w-4 h-4 text-blue-600" />
               </h3>
 
               <div className="grid grid-cols-2 gap-4">
                 {FIRM_INFO.stats.map((stat, idx) => (
                   <div
                     key={idx}
-                    className="bg-slate-950/80 p-4 rounded-xl border border-slate-800 hover:border-blue-500/40 transition-colors"
+                    className="bg-slate-50/80 p-4 rounded-xl border border-slate-200/80 hover:border-blue-300 transition-colors"
                   >
-                    <div className="text-2xl sm:text-3xl font-extrabold text-blue-400">
+                    <div className="text-2xl sm:text-3xl font-extrabold text-blue-700">
                       {stat.value}
                     </div>
-                    <div className="text-xs font-bold text-white mt-1">
+                    <div className="text-xs font-bold text-slate-900 mt-1">
                       {stat.label}
                     </div>
-                    <div className="text-[11px] text-slate-400 mt-1 leading-snug">
+                    <div className="text-[11px] text-slate-500 mt-1 leading-snug">
                       {stat.description}
                     </div>
                   </div>
@@ -106,10 +107,10 @@ export default function HeroSection() {
               </div>
 
               {/* PAN India Reach Note */}
-              <div className="mt-6 pt-4 border-t border-slate-800 flex items-start gap-3 bg-slate-950/50 p-3.5 rounded-xl border border-slate-850">
-                <Building2 className="w-5 h-5 text-blue-400 shrink-0 mt-0.5" />
-                <p className="text-xs text-slate-300 leading-relaxed">
-                  Serving clients seamlessly across metro cities and industrial corridors with deep multi-jurisdictional compliance expertise.
+              <div className="mt-6 pt-4 border-t border-slate-100 flex items-start gap-3 bg-blue-50/50 p-3.5 rounded-xl border border-blue-100">
+                <Building2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
+                <p className="text-xs text-slate-700 leading-relaxed font-medium">
+                  Serving clients seamlessly across Delhi, Hisar, Nagpur, Deoghar, and industrial corridors with deep compliance expertise.
                 </p>
               </div>
             </div>
